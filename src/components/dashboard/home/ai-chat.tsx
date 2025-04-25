@@ -16,6 +16,7 @@ const AIChatAssistant: React.FC = () => {
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
+      setChatInput('')
       handleSend();
     }
   };
@@ -67,6 +68,7 @@ const AIChatAssistant: React.FC = () => {
             className="flex-1 outline-none text-sm text-gray-700 placeholder-gray-400"
           />
           <button
+            aria-label='message-send'
             onClick={handleSend}
             className="ml-2 text-blue-500 hover:text-blue-600 transition-colors"
           >

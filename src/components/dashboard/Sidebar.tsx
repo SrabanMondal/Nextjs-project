@@ -31,6 +31,7 @@ export default function Sidebar() {
     <>
       {/* Mobile MENU Button */}
       <button
+        aria-label='Menu-button'
         className={`md:hidden fixed top-1 left-1 z-40 p-2 text-white rounded-md ${isOpen?'hidden':'block'}`}
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -67,7 +68,7 @@ export default function Sidebar() {
           </nav>
 
           {/* LogOut button */}
-          <div className='mb-5' onClick={handleLogOut}>Logout</div>
+          <button aria-label='Logout-button' className='mb-5 w-fit px-1' onClick={handleLogOut}>Logout</button>
         </div>
       </div>
 
