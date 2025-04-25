@@ -4,7 +4,7 @@ export const demoUserData:userDataType = {
     steps: [
       { name: 'Profile Setup', completed: true },
       { name: 'Initial Training', completed: true },
-      { name: 'Legal Documents', completed: true },
+      { name: 'Legal Documents', completed: false },
       { name: 'Financial Integration', completed: false },
       { name: 'Final Review', completed: false },
     ] as Step[],
@@ -12,10 +12,10 @@ export const demoUserData:userDataType = {
   };
 
   export const franchiseData:franchiseDataType = {
-    total: 14,
+    total: 24,
     percentageChange: 7.4,
     stages: [
-      { name: 'Stage 1 (Initial Inquiry)', count: 2 },
+      { name: 'Stage 1 (Initial Inquiry)', count: 12 },
       { name: 'Stage 2 (Document Submission)', count: 7 },
       { name: 'Stage 3 (Training)', count: 5 },
     ],

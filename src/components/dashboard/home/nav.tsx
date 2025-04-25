@@ -16,7 +16,7 @@ export default function TopNavbar() {
           alt="User Avatar"
           width={32}
           height={32}
-          className="rounded-full object-cover cursor-pointer"
+          className="rounded-full object-cover cursor-pointer mr-4"
         />
       </div>
     </nav>
