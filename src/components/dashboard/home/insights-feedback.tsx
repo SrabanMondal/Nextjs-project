@@ -30,7 +30,7 @@ const KeyInsightsFeedback: React.FC = () => {
       <div className='border-b-[2px] border-gray-200 mb-3'/>
 
       {/*1 feedback */}
-      <div className="bg-[#F6F7FB] px-4 py-2 rounded-[8px]">
+      <div className="bg-[#F6F7FB] px-4 py-2 rounded-[8px] hover:bg-gray-200 cursor-pointer">
         <div className="text-sm text-gray-600">Feedback</div>
         <div className="text-sm text-gray-500 mt-1">{feedbackToShow.text}</div>
       </div>

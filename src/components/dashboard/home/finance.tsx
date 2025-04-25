@@ -10,7 +10,7 @@ const FinancialWellbeing: React.FC = () => {
 
   return (
     <>
-      <h3 className="text-lg font-semibold text-gray-900 mb-2">Financial Wellbeing</h3>
+      <h3 className="text-lg font-semibold text-gray-900 mb-3">Financial Wellbeing</h3>
       <div className="flex items-center justify-between mb-4">
         <div>
           <div className="text-2xl font-bold text-gray-900">{totalFranchisees}</div>
@@ -25,11 +25,11 @@ const FinancialWellbeing: React.FC = () => {
       {/* target and current values */}
       <div className='border-2 border-gray-200 mb-4'/>
       <div className="grid grid-cols-2 gap-4">
-        <div className="bg-[#F6F7FB] p-3 rounded-lg text-center">
+        <div className="bg-[#F6F7FB] p-4 rounded-lg text-center">
           <div className="text-sm text-gray-600">Target</div>
           <div className="text-lg font-semibold text-gray-900">{formatCurrency(target)}</div>
         </div>
-        <div className="bg-[#F6F7FB] p-3 rounded-lg text-center">
+        <div className="bg-[#F6F7FB] p-4 rounded-lg text-center">
           <div className="text-sm text-gray-600">Current</div>
           <div className="text-lg font-semibold text-gray-900">{formatCurrency(current)}</div>
         </div>

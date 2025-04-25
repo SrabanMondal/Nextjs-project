@@ -19,7 +19,7 @@ const PendingMessages: React.FC = () => {
         {questions.map((question, index) => (
           <div
             key={index}
-            className={`flex flex-col items-start w-full gap-3 pb-2 mb-2 ${
+            className={`flex flex-col items-start w-full gap-3 rounded-md p-2 mb-2 cursor-pointer hover:bg-gray-100 ${
               index !== questions.length - 1 ? 'border-b border-[#EAECF0]' : ''
             }`}
           >

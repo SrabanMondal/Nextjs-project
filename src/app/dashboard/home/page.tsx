@@ -34,7 +34,7 @@ const page = () => {
       <div className="bg-white p-6 w-full rounded-xl shadow-sm border border-[#EAECF0] flex-1">
         <KeyInsightsFeedback />
       </div>
-      <div className="bg-white p-6 w-full rounded-xl shadow-sm border border-[#EAECF0]">
+      <div className="bg-white p-6 w-full rounded-xl shadow-sm border border-[#EAECF0] flex-1">
         <ProspectLeads />
       </div>
     </div>
