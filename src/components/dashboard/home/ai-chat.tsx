@@ -25,7 +25,7 @@ const AIChatAssistant: React.FC = () => {
     <div className="bg-[#F9FAFB] pt-10 pb-10 flex flex-col items-center min-w-[26rem] justify-center relative rounded-lg shadow-sm flex-1">
       
       {/* Arrow button */}
-      <button className="absolute top-4 right-14 p-1.5 rounded-full text-[#279DD4] bg-[#E9EFF6] hover:text-blue-500">
+      <button aria-label='Expand-button' className="absolute top-4 right-14 p-1.5 rounded-full text-[#279DD4] bg-[#E9EFF6] hover:text-blue-500">
         <FiChevronUp size={20} />
       </button>
 

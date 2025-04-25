@@ -19,7 +19,7 @@ const KeyInsightsFeedback: React.FC = () => {
           {topPerformer && (
             <div className='flex flex-col items-center justify-center gap-1'>
             <Image src={topPerformer} alt='top-performer' width={36} height={36} />
-            <span className="bg-[#D5F2FF80] border-[1px] border-[#BAE9FF] text-[#279DD4] text-xs font-medium px-3 py-0.5 rounded-[20px]">
+            <span className="bg-[#D5F2FF80] border border-[#BAE9FF] text-[#279DD4] text-xs font-medium px-3 py-0.5 rounded-[20px]">
               Top Performer
             </span>
             </div>

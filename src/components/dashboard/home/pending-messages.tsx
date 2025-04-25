@@ -43,12 +43,12 @@ const PendingMessages: React.FC = () => {
                 )}
             </div>
             <div className='flex-1'>
-            <div className="text-sm font-medium text-gray-900">{question.name}</div>
-            <div className="text-xs text-gray-500">{question.username}</div>
+            <div className="text-sm font-medium text-[#344054]">{question.name}</div>
+            <div className="text-xs text-[#475467]">{question.username}</div>
             </div>
             </div>
 
-            <div className="text-xs text-gray-400 whitespace-nowrap">
+            <div className="text-xs text-[#475467] whitespace-nowrap">
                 <div>{question.timeAgo}</div>
               
             </div>
